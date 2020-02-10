@@ -1,0 +1,16 @@
+**** README FOR SAMTOOLS ****
+
+Using the 'homo.bam' file which is the compressed binary version of the SAM file of the chromosome 20 of the human genome.
+Here you can download it: 
+
+If we want to extract pieces of the genome into a reduced SAM file, we use the following commands:
+
+  For example, to extract the first 1.000.000 nucleotides:
+     samtools view homo.bam 20:1-1000000 > sam_1M.sam
+  
+  or, in the same way, to extract the first 9 milions:
+      samtools view homo.bam 20:1-9000000 > sam_9M.sam
+      
+      
+Another useful tool is to visualize the header of the file:
+      samtools view -H homo.bam > header.txt
