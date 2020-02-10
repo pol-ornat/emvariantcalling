@@ -107,21 +107,8 @@ Fer servir la notació TP, FP, FN, TN --> calcular precision, recall (sensitivit
 Fer-ho al cas INDELS (cas 3) i al cas 2
 
 
-
-
 A considerar:
  - pot ser que nosaltres no diem "CALL" pero perquè a la columna de la matriu tots els valors són iguals i per tant nosaltres no l'agafem.
-
-- 
-
-
-
-
-
-curs intensiu --> quedar el dilluns 16
-dilluns calcularem la sens i precision amb l'EM i GATK
-ella va dir que es seguia un protocol i unes instruccions
-
 
 
 
@@ -141,10 +128,6 @@ P = TP / (TP+FP)	Recall = TP / (TP+FN)
 5. Mirar els casos on l'EM diu que son TP i el GATK FN i veure si son especials. I igualment on nosaltre tenim TN i el GATK FP.
 
 
-
-
-
-
 -----
 mirar què passa amb els FP perquè n'hi ha masses.
 
@@ -160,3 +143,8 @@ mirar què passa amb els FP perquè n'hi ha masses.
 
 1...
 - tornar a executar sense indels per veure si hem guanyat molt afegint els indels (TP, FP, FN).
+
+
+
+
+
