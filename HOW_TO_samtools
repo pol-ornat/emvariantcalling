@@ -1,7 +1,7 @@
 **** README FOR SAMTOOLS ****
 
 Using the 'homo.bam' file which is the compressed binary version of the SAM file of the chromosome 20 of the human genome.
-Here you can download it: 
+Here you can download it: https://drive.google.com/open?id=1J1Nan86uB8qYUDRUZGNhvrX9aVlTnm9o
 
 If we want to extract pieces of the genome into a reduced SAM file, we use the following commands:
 
