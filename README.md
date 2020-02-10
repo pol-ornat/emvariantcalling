@@ -20,8 +20,10 @@ In this repository you will find:
         It also contains the performance evaluating the results of a run in 'performance_full.mat'. There is an
         additional matlab code to import the .csv matrices from python to matlab in a more efficient way (toMatrixFull.m)
         
-        Finally there is the file 'convert_to_full_instances.m' which generates a matrix grouping each nucleotide and ordering
+        The file 'convert_to_full_instances.m' generates a matrix grouping each nucleotide and ordering
         it (as said in the paper) by quality bining. 
+        
+        Lastly, there is a link to a drive repository, so you can access the results of every simulation.
         
        
  - 'GATK' folder: contains the necessary instructions and software to use the GATK algorithm.
