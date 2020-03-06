@@ -46,6 +46,8 @@ important functions are:
         The other functions are useful to parse the CIGAR value (for checking procedures) and convert different type
         of files (vcf, reference or gatk) to a vector to import into Matlab.
         
+  Find README_python for detailed information
+        
 
 The file 'samtools-1.9.tar.bz2' is the version of the samtools software we used. Mainly to convert SAM files into BAM.
 
