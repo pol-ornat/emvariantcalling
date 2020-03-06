@@ -48,3 +48,6 @@ important functions are:
         
 
 The file 'samtools-1.9.tar.bz2' is the version of the samtools software we used. Mainly to convert SAM files into BAM.
+
+
+ACCESS DRIVE FILES IN THE FOLLOWING LINK: https://drive.google.com/drive/folders/1J1Nan86uB8qYUDRUZGNhvrX9aVlTnm9o?usp=sharing
