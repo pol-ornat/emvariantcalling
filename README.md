@@ -1,5 +1,14 @@
 # emvariantcalling
 
+HOW TO RUN THE ALGORITHM
+  1. Decompress the software 'samtools-1.9'
+  2. Download the file 'homo.bam' from the DRIVE repository
+  3. Follow the instructions in HOW_TO_samtools to generate SAM files
+  4. Load the SAM Files in the Python scripts to generate matrices (see README in Python folder)
+  5. Generate the .csv files using the python scripts (see README in Python folder)
+  6. Load the data to Matlab and run the selected algorithm script (see README in Matlab folder)
+  
+  
 In this repository you will find:
 
   - 'Matlab' folder: contains both the code and the results of its execution for the 4 test run.
