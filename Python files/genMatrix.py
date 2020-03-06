@@ -2,17 +2,13 @@
 import numpy as np
 
 # Create matrix of zeros
+# Select the lenght of your sequence
 length_ref = 15001000 # Chromosome 20
 shape = (5, length_ref)
 shape_r = (1,length_ref)
 matrix = np.zeros(shape,dtype=np.int8)
 
-#matrix[1,2]=1
-#print(e)
-#np.savetxt("foo.csv", matrix, delimiter=",", newline='\n',fmt='%s')
-
-
-
+# To remove nucleotides with errors
 incorrect_flags = str([73,133,89,121,165,181,101,117,153,185,69,137,77,141])  # unmapped
 correct_nucs = str(['A', 'C','G','T','N'])
 
