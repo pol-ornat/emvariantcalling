@@ -16,9 +16,11 @@ SCC=30
 ###
 
 
-## BAM File
+## BAM File - Select your bam file to generate VCF
 aln_BAM=$"/samtools-1.9/homo.bam"
 
+# These parameters are not needed as this configuration has been previously applied
+# Just use in case of a new BAM file without proper configuration and filtering
 # aln_BAM=$"bam_16M.bam"
 aln_sorted_BAM=$"aln.sorted.bam"
 aln_sorted_dedup_BAM=$"aln.sorted.dedup.bam"
@@ -58,7 +60,7 @@ KGFileIndels=$dataPath"/1000G_phase1.indels.b37.vcf"
 # Option 2
 # java -jar -Djava.io.tmpdir=./tmp $softPath/GenomeAnalysisTK.jar -T HaplotypeCaller -R $ref20 -I $aln_SAM --emitRefConfidence GVCF [--dbsnp dbSNP.vcf] [-L targets.interval_list] -o $raw_VCF
 
-# #### New version ####
+# #### Select reference path in -R, BAM file in -I and output VCF file in -O ####
 /test_gatk/software/gatk-4.1.2.0/gatk --java-options "-Xmx8G" HaplotypeCaller -R $ref20 -I $aln_BAM -O $raw_VCF
 
 # https://software.broadinstitute.org/gatk/documentation/article?id=11050
