@@ -42,6 +42,8 @@ In this repository you will find:
         The file 'gatk_instructions.sh' is a series of instructions to run GATK using our reference genome and
         .bam files. It will generate a .VCF file.
         
+        The file 'gt_16M.vcf' is the ground truth file for the first 16 million nucleotides.
+        
 
 - 'Python files': contains all the necessary functions to generate the matlab matrix from the SAM file. The most 
 important functions are:
